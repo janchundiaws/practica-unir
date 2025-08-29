@@ -1,6 +1,6 @@
-# Aplicación Hola Mundo con Docker
+# Aplicación nodejs y mongo con Docker
 
-Esta es una aplicación simple de "Hola Mundo" construida con Node.js y Express, containerizada con Docker.
+Esta es una aplicación simple construida con Node.js y Express, containerizada con Docker.
 
 ## Características
 
