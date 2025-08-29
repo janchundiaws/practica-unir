@@ -74,30 +74,8 @@ docker logs practica-unir-container
 docker stop practica-unir-container
 ```
 
-## Estructura del Proyecto
-
-- `app.js` - Archivo principal de la aplicación
-- `db.js` - Configuración y conexión a MongoDB
-- `models/Persona.js` - Modelo de datos para Persona
-- `controllers/personaController.js` - Controlador con operaciones CRUD
-- `routes/personaRoutes.js` - Rutas de la API de Personas
-- `swagger.js` - Configuración de la documentación Swagger
-- `swagger-ui-config.js` - Configuración personalizada de Swagger UI
-- `data/ejemplo-personas.json` - Datos de ejemplo para pruebas
-- `scripts/poblarDB.js` - Script para poblar la base de datos
-- `package.json` - Dependencias y scripts de Node.js
-- `Dockerfile` - Configuración para construir la imagen Docker
-- `docker-compose.yml` - Configuración para ejecutar la app con MongoDB
-- `.dockerignore` - Archivos excluidos del contexto de Docker
-
 ## Puertos
 
 - La aplicación se ejecuta en el puerto 3000 por defecto
-- Se puede cambiar usando la variable de entorno `PORT`
 - MongoDB se ejecuta en el puerto 27017
 
-## Variables de Entorno
-
-- `MONGODB_URI` - URL de conexión a MongoDB (por defecto: mongodb://localhost:27017/practica-unir-db)
-- `PORT` - Puerto de la aplicación (por defecto: 3000)
-- `NODE_ENV` - Entorno de ejecución (development/production)
