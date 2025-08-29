@@ -1,0 +1,28 @@
+{
+  "name": "practica-unir-app",
+  "version": "1.0.0",
+  "description": "Aplicación simple de Hola Mundo con Node.js y Express",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "poblar-db": "node scripts/poblarDB.js",
+    "test-api": "curl -X GET http://localhost:3000/api/personas"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongoose": "^7.8.7",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "docker"
+  ],
+  "author": "Tu Nombre",
+  "license": "MIT"
+}

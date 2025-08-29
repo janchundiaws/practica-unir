@@ -1,0 +1,52 @@
+[
+  {
+    "nombres": "Juan Carlos",
+    "apellidos": "Pérez González",
+    "cedula": "1234567890"
+  },
+  {
+    "nombres": "María Elena",
+    "apellidos": "Rodríguez López",
+    "cedula": "0987654321"
+  },
+  {
+    "nombres": "Carlos Alberto",
+    "apellidos": "Martínez Silva",
+    "cedula": "1122334455"
+  },
+  {
+    "nombres": "Ana Sofía",
+    "apellidos": "García Torres",
+    "cedula": "5566778899"
+  },
+  {
+    "nombres": "Luis Fernando",
+    "apellidos": "Hernández Vargas",
+    "cedula": "9988776655"
+  },
+  {
+    "nombres": "Carmen Rosa",
+    "apellidos": "Díaz Mendoza",
+    "cedula": "4433221100"
+  },
+  {
+    "nombres": "Roberto José",
+    "apellidos": "Morales Castro",
+    "cedula": "6677889900"
+  },
+  {
+    "nombres": "Patricia Isabel",
+    "apellidos": "Jiménez Ruiz",
+    "cedula": "2233445566"
+  },
+  {
+    "nombres": "Miguel Ángel",
+    "apellidos": "Sánchez Vega",
+    "cedula": "7788990011"
+  },
+  {
+    "nombres": "Elena Beatriz",
+    "apellidos": "Torres Herrera",
+    "cedula": "3344556677"
+  }
+]
