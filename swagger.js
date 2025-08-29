@@ -4,12 +4,12 @@ const options = {
   definition: {
     openapi: '3.0.0',
     info: {
-      title: 'API Hola Mundo con MongoDB',
+      title: 'API - DevOps',
       version: '1.0.0',
-      description: 'API simple de Hola Mundo con conexión a MongoDB',
+      description: 'API simple con conexión a MongoDB',
       contact: {
-        name: 'Desarrollador',
-        email: 'tu-email@ejemplo.com'
+        name: 'JUNIOR WILLIAM ANCHUNDIA SOZA',
+        email: 'junior_soza@hotmail.es'
       },
       license: {
         name: 'MIT',
@@ -20,10 +20,6 @@ const options = {
       {
         url: 'http://localhost:3000',
         description: 'Servidor de desarrollo'
-      },
-      {
-        url: 'http://localhost:3000',
-        description: 'Servidor de producción'
       }
     ],
     components: {

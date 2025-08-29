@@ -1,19 +1,25 @@
+# Docker Compose para aplicación Node.js con MongoDB
+# Versión de Docker Compose utilizada
 version: '3.8'
 
+# Definición de servicios que se ejecutarán
 services:
+  # Servicio principal de la aplicación Node.js
   app:
-    build: .
+    build: .                    # Construye la imagen desde el Dockerfile en el directorio actual
     ports:
-      - "3000:3000"
+      - "3000:3000"            # Mapea puerto 3000 del host al puerto 3000 del contenedor
     depends_on:
-      - mongo
+      - mongo                   # Asegura que MongoDB se inicie antes que la aplicación
 
+  # Servicio de base de datos MongoDB
   mongo:
-    image: mongo:latest
+    image: mongo:latest         # Utiliza la imagen oficial más reciente de MongoDB
     ports:
-      - "50000:27017"
+      - "50000:27017"          # Mapea puerto 50000 del host al puerto 27017 del contenedor
     volumes:
-      - mongodb_data:/data/db
+      - mongodb_data:/data/db   # Monta volumen persistente para almacenar datos de MongoDB
 
+# Definición de volúmenes para persistencia de datos
 volumes:
-  mongodb_data:
+  mongodb_data:                 # Volumen persistente para los datos de MongoDB
